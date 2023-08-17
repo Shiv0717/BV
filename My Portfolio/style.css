@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+}
+#nav{
+    background-color: #000;
+    width: 100%;
+    height: 10vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#nav>h2{
+    padding-top: 15px;
+    font-size: 15px;
+    font-family: "General Sans";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+#nav>h3{
+  padding-right: 40px;
+  padding-top: 20px;
+  font-size: 15px;
+  font-weight: 900;
+  
+}
+#gap{
+    height: 25vh;
+}
+#page1{
+    background-color: black;
+    height: 140vh;
+    width: 100%;
+}
+#nav>h2{
+    padding-left: 61px;
+}
+#page1>h1{
+    color: white;
+    line-height: 165px;
+    font-size: 140px;
+    padding-left: 52px;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+#page2{
+    height: 160vh;
+    width: 100%;
+    background-color: black;
+    padding-top: 380px;
+}
+#page2>p{
+    font-size: 52px;
+    line-height: 78px;
+    font-weight: 300;
+    color: #fff;
+    padding-left: 52px;
+}
+#page3{
+    height: 120vh;
+    width: 100%;
+    background-color: black;
+}
+#page3>h2{
+    padding-top: 300px;
+    font-size: 52px;
+    line-height: 78px;
+    font-weight: 800;
+    color: #fff;
+    padding-left: 52px;
+
+}
+#page3>p{
+    font-size: 52px;
+    line-height: 78px;
+    font-weight: 300;
+    color: #fff;
+    padding-left: 52px;
+}
+#page3>a{
+    font-size: 52px;
+    line-height: 78px;
+    font-weight: 300;
+    color: #fff;
+    padding-left: 52px;
+}
+#page3>.video{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 40px;
+    padding-top: 40px;
+}
+#page4{
+    height: 160vh;
+    width: 100%;
+    background-color: black;
+}
+#page4>h2{
+    padding-top: 600px;
+    color: white;
+    padding-left: 60px;
+    font-size: 54px;
+    line-height: 100px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+#page4>a{
+    font-size: 52px;
+    line-height: 78px;
+    font-weight: 300;
+    color: #fff;
+    padding-left: 52px;
+}
+#loader{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#loader h1{
+    font-size: 100px;
+    font-family: monument;
+    font-weight: 100;
+    color: #000;
+}
+#nav>h2:hover{
+    cursor: pointer;
+    color: #a0a0a0;
+}
+#nav>h3:hover{
+    cursor: pointer;
+    color: #a0a0a0;
+}
